@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+  <link rel="stylesheet" target="_blank" rel="nofollow noreferrer" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<body>
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+
+
+<input type="hidden" id="openModalBtn" value="Open Modal">
+
+<div id="openModal1" class="modalDialog" data-modalorder=1><div>
+ 
+<div class="card text-center">
+  <div class="card-header">
+    Welcome to Operating Model Quizz Game
+  </div>
+  <br/>
+  <br/>
+  <div class="card-body">
+    <h5 class="card-title"> Enter your Name to Start the Game </h5>
+    <p class="card-text text-center"><input type="text" class="form-control text-center" id="username"></p>
+    <button type="submit" class="btn btn-primary user_submit username_btn" >Submit</button>
+  </div>
+  <div class="card-footer text-muted">
+    
+  </div>
+</div>
+    </div>
+</div>
+
+<div id="openModal2" class="modalDialog" data-modalorder=2>
+
+<div class="card text-center">
+  <div class="card-header">
+   <small> Select the Answer </small>
+  </div>
+  <br/>
+  <br/>
+  <div class="card-body">
+    <h3 class="card-title"> 1) In which decade was the Internet first implemented?</h3>
+  </div>
+  <div class="card-footer text-muted">
+  <button class="btn btn-default q1_1 getAssignment">
+     <img src="q1_1.jpg" width="70" height="50" />
+</button>
+<button class="btn btn-default q1_2 getAssignment">
+     <img src="q1_2.jpg" width="70" height="50" />
+</button>
+<button class="btn btn-default q1_3 getAssignment">
+     <img src="q1_3.jpg" width="70" height="50" />
+</button>
+<button class="btn btn-default q1_4 getAssignment">
+     <img src="q1_4.jpg" width="70" height="50" />
+</button>
+  </div>
+</div>
+    </div>
+</div>
+
+<div id="openModal3" class="modalDialog" data-modalorder=3>
+<div class="card text-center">
+  <div class="card-header">
+   <small> Select the Answer </small>
+  </div>
+  <br/>
+  <br/>
+  <div class="card-body">
+    <h3 class="card-title"> 2) ISP stands for:</h3>
+  </div>
+  <div class="card-footer text-muted">
+  <button class="btn btn-default q2_1 getAssignment">
+     <img src="q2_1.jpg" width="180" height="50" />
+</button>
+<button class="btn btn-default q2_2 getAssignment">
+     <img src="q2_2.jpg" width="180" height="50" />
+</button>
+<button class="btn btn-default q2_3 getAssignment">
+     <img src="q2_3.jpg" width="180" height="50" />
+</button>
+<button class="btn btn-default q2_4 getAssignment">
+     <img src="q2_4.jpg" width="180" height="50" />
+</button>
+  </div>
+</div>
+    </div>
+</div>
+
+<div id="openModal4" class="modalDialog" data-modalorder=4>
+    <div class="outer-border text-center" style="width: !important">
+    <div class="inner-dotted-border">
+        <span class="certification">Certificate of Completion</span>
+        <br><br>
+        <span class="certify"><i>This is to certify that</i></span>
+        <br><br>
+        <span class="name"><b class="cert_username"></b></span><br/><br/>
+        <span class="certify"><i>has successfully completed the certification</i></span> <br/><br/>
+        <span class="fs-30">Operating Model Quizz</span> <br/><br/>
+        <span class="fs-20">with score of <b class="user_points"></b></span> <br/><br/><br/><br/>
+        <span class="certify"><i>dated</i></span><br>
+        
+        <span class="fs-30 cert-date"></span>
+        <br><br>
+        <span class="mt-4 text-center"><small>Cert ID: 4jn342rn3d3dsckki4</small></span>
+
+    </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
